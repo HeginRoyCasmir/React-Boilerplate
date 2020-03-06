@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --config webpack.config.js --env.NODE_ENV=development",
     "build": "webpack --config webpack.config.js --env.NODE_ENV=production",
-    "analyze": "yarn run start -- --env.analyze",
+    "analyze": "npm run start -- --env.analyze",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage --colors",
@@ -95,8 +95,8 @@
   ],
   "husky": {
     "hooks": {
-      "pre-commit": "yarn eslint && pretty-quick --staged",
-      "pre-push": "yarn eslint"
+      "pre-commit": "npm eslint && pretty-quick --staged",
+      "pre-push": "npm eslint"
     }
   }
 }
