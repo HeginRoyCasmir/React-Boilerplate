@@ -19,7 +19,7 @@
     "react",
     "npm"
   ],
-  "author": "QBurst",
+  "author": "Hegin",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.2.3",
